@@ -1,2 +1,48 @@
-BadmintonV2_Main/Debug/
-BadmintonV2_Main/Release/
+# ==========================================
+# Thư mục đầu ra khi build (Build directories)
+# ==========================================
+Debug/
+Release/
+build/
+Build/
+
+# ==========================================
+# Các file object và trung gian (Compiled files)
+# ==========================================
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.list
+*.map
+*.srec
+*.log
+
+# ==========================================
+# Các file firmware đầu ra (Binaries / Executables)
+# ==========================================
+*.elf
+*.bin
+*.hex
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# ==========================================
+# File cấu hình cục bộ & bộ nhớ đệm của Eclipse / STM32CubeIDE
+# ==========================================
+.metadata/
+.settings/
+*.launch
+*.tmp
+*.bak
+*~
+
+# ==========================================
+# File hệ điều hành (OS generated files)
+# ==========================================
+.DS_Store
+Thumbs.db
