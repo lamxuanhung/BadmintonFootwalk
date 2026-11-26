@@ -19,11 +19,6 @@
 #define LED_7_POS	0x40
 #define LED_8_POS	0x80
 
-typedef struct
-{
-	uint8_t LedPos;
-	TM1637_Control_Block_t* TM1637_cs;
-}LED_Desc_Block_t;
 
 void LED_Ini();
 void LED_Display(uint8_t ledPos);

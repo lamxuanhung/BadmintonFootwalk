@@ -14,7 +14,6 @@ typedef struct
 {
 	uint8_t NumSegment;
 	uint8_t* DefSegment;
-	TM1637_Control_Block_t* TM1637_cs;
 }LED7_Desc_Block_t;
 
 void LED7_Ini();

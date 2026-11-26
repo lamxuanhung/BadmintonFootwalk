@@ -1,8 +1,0 @@
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_spi.h:394:26:LL_SPI_IsEnabled	16	static
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_spi.h:678:22:LL_SPI_SetRxFIFOThreshold	16	static
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_spi.h:787:22:LL_SPI_SetCRCPolynomial	16	static
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_bus.h:776:22:LL_APB1_GRP2_ForceReset	16	static
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_bus.h:813:22:LL_APB1_GRP2_ReleaseReset	16	static
-../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_spi.c:133:13:LL_SPI_DeInit	32	static
-../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_spi.c:177:13:LL_SPI_Init	24	static
-../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_spi.c:255:6:LL_SPI_StructInit	16	static

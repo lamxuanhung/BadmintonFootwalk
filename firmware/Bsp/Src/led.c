@@ -8,16 +8,13 @@
 #include "../Inc/led.h"
 
 
-LED_Desc_Block_t LED_Desc_cs;
-
-void LED_Ini()
-{
-	LED_Desc_cs.LedPos = 0;
-	LED_Desc_cs.TM1637_cs = &TM1637;
-}
-
-void LED_Display(uint8_t ledPos)
-{
-	LED_Desc_cs.TM1637_cs->DataBuffer[0] = ledPos;
-}
+//void LED_Ini()
+//{
+//	LED_Desc_cs.LedPos = 0;
+//}
+//
+//void LED_Display(uint8_t ledPos)
+//{
+//	LED_Desc_cs.TM1637_cs->databuffer[TM1637_LED_SEGMENT_POSITION] = ledPos;
+//}
 
